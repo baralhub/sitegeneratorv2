@@ -1,0 +1,159 @@
+/*
+    Color scheme:
+    #ae0000  - dark red
+    #f6ffa0  - light yellow
+*/
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: url('../img/bckgrdimg1.jpg') no-repeat;
+    background-size: 100%;
+    color:#fffff0;
+}
+
+
+/* Here I set up the sidepanel that has the gradient sunset background image.  */
+.sidepanel {
+    background: url('../img/sideimg1.jpg');
+    min-height: 100vh;
+    opacity: 0.6;
+}
+
+/* Make the name (and all headers) look good */
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    color:#fffff0;
+}
+h2{
+    font-family: 'Open Sans', sans-serif;
+    color:#fffff0;
+}
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+
+h1 {
+    font-size: 27pt;
+    font-weight: 90;
+    
+}
+h1 span {
+    font-weight: 14000;
+}
+
+
+/* Set up main content to the right */
+.rightpanel {
+    opacity: 0.8;
+
+}
+
+/* I got this gradient from: https://uigradients.com/ */
+.blogpost {
+    font-family: 'Open Sans', sans-serif;
+    color:#fffff0;
+    background: #659999;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f4791f, #659999);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f4791f, #659999); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+padding-bottom: 10px;
+padding-top: 10px;
+padding-left: 10px;
+padding-right: 10px;
+display: inline-block;
+border: 1.5px solid #bdc3c7;
+border-style: inset;
+}
+.circle {
+                                  display: block;
+                                  width: 150px;
+                                  height: 150px;
+                                  margin: 1em auto;
+                                  background-size: cover;
+                                  background-repeat: no-repeat;
+                                  background-position: center center;
+                                  -webkit-border-radius: 99em;
+                                  -moz-border-radius: 99em;
+                                  border-radius: 99em;
+                                  border: 5px solid #eee;
+                                  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);  
+                                }
+                                /* Adding Social Bar */
+                .sticky-container{
+                    padding:0px;
+                    margin:0px;
+                    position:fixed;
+                    right:-130px;
+                    top:230px;
+                    width:210px;
+                    z-index: 1100;
+                }
+                .sticky li{
+                    list-style-type:none;
+                    background-color:#fff;
+                    color:#efefef;
+                    height:43px;
+                    padding:0px;
+                    margin:0px 0px 1px 0px;
+                    -webkit-transition:all 0.25s ease-in-out;
+                    -moz-transition:all 0.25s ease-in-out;
+                    -o-transition:all 0.25s ease-in-out;
+                    transition:all 0.25s ease-in-out;
+                    cursor:pointer;
+                }
+                .sticky li:hover{
+                    margin-left:-115px;
+                }
+                .sticky li img{
+                    float:left;
+                    margin:5px 4px;
+                    margin-right:5px;
+                }
+                .sticky li p{
+                    padding-top:5px;
+                    margin:0px;
+                    line-height:16px;
+                    font-size:11px;
+                }
+                .sticky li p a{
+                    text-decoration:none;
+                    color:#2C3539;
+                }
+                .sticky li p a:hover{
+                    text-decoration:underline;
+                }
+                }
+
+.menu_div ul
+{
+    padding:0px;
+    margin:0px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px;
+    color:#FFF;
+    list-style:none;
+    text-indent:15px;
+}
+.menu_div ul li
+{
+    background:#3f3f3f;
+    line-height:28px;
+        border-bottom:1px solid #333;
+}
+.menu_div ul li a
+{
+    text-decoration:none;
+    color:#FFF;
+    display:block;
+}
+.menu_div ul li a:hover
+{
+    background:#d40203;
+}
+.menu_div ul li#active
+{
+    background:#d40203;
+}
+
